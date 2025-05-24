@@ -1,0 +1,28 @@
+# Ignore Visual Studio files
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.VC.db
+*.ipch
+*.tlog
+
+# Ignore build outputs
+x64/
+Debug/
+Release/
+*.obj
+*.exe
+*.pdb
+*.ilk
+
+# Ignore temporary files
+*.log
+*.idb
+*.lastbuildstate
+*.tmp
+*.cache
+
+# Ignore OS files
+Thumbs.db
+Desktop.ini
