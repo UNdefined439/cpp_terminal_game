@@ -9,5 +9,5 @@
 - Just started rewriting my origin program into a file system which is new to me
 - Started refactoring all the major systems into Classes for easier use as the project expands
 - Have transitioned most of the basic functions into their respective files and made some minor improvements for scalability but almost none of the old objects have been added yet
-- Yet to transitioned all the game logic
+- Yet to transitioned all the game loop logic and the events
 - Hope to build a large strategic game and then transition it to a GUI system
