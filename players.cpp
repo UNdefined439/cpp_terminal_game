@@ -11,7 +11,7 @@
 
 using namespace std;
 
-Players::Players(int health, int damage, int block, string name, int id = 0) : health(health), damage(damage), block(block), name(name), id(id) {
+Players::Players(int health, int damage, int block, string name, int id) : health(health), damage(damage), block(block), name(name), id(id) {
 	lvl = 0.0;
 	extraMaxHealth = 0;
 	this->addObj(make_unique<FreezeSpell>("start"));
@@ -47,6 +47,9 @@ int Players::getEffectsSize() const {
 }
 int Players::getExtraMaxHealth() const {
 	return extraMaxHealth;
+}
+void Players::display() const {
+	cout << name << ":\nLevel " << lvl << ", Health " << health << ", Damage " << damage << ", Block Chance " << block << endl;
 }
 
 float Players::changeLvl(float change, bool silent) {

@@ -17,7 +17,7 @@ private:
 	std::vector<std::unique_ptr<Effects>> effects;
 	std::string name;
 public:
-	Players(int health, int damage, int block, std::string name, int id);
+	Players(int health, int damage, int block, std::string name, int id = -1);
 
 	int getHealth() const;
 	int getDamage() const;
@@ -29,6 +29,7 @@ public:
 	int getInventorySize() const;
 	int getEffectsSize() const;
 	int getExtraMaxHealth() const;
+	void display() const;
 
 	float changeLvl(float change, bool silent = true);
 	int changeHealth(int change, bool silent = true);
