@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.1.2 26/05/25
+- Added logic for Merchant event
+- Updated md files
+
 ## 0.1.1 25/05/25
 - Added basic events logic for Dungeon
 - Added more display functions for players class
