@@ -22,5 +22,5 @@ void getName(int id, std::string& name, std::vector<std::string>& usedNames);
 
 int rng(int min, int max);
 void loadingDots(int cycles, int delay, const std::string& str);
-void sleep(int);
+void sleep(int time = 1000);
 
