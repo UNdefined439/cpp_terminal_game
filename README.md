@@ -10,7 +10,7 @@ This is a work in progress game which can be played in your terminal. GUI coming
         - Dungeon event: Face monsters to gain precious objects
         - Merchant event: A kind merchant offers you one object, choose wisely
         - Treasure: Once in a lifetime luck
-        - Dragon: **IF** you win a great reward awaits
+        - Dragon: **IF** you win, a great reward awaits
     - Heal - costs 1 level and gain health up to your max
 - Across the game gain powerful objects from explorations which you can use on your turn to gain the upperhand
 - **Goal:** Survive and kill the oponent
